@@ -26,4 +26,4 @@ Execute with: python3 SpotifyTweet.py (if using python3)
 
 ## Author
 
-* **Haran Lakha** - [GitHub](https://github.com/Haran43) - [Twitter](https://twitter.com/haranlakha)
+* **Haran Lakha** - [GitHub](https://github.com/haranlakha) - [Twitter](https://twitter.com/haranlakha)
