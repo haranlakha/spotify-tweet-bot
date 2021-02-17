@@ -1,11 +1,9 @@
 import spotipy
 import spotipy.util as util
-from spotipy.oauth2 import SpotifyClientCredentials
-import spotipy.oauth2 as oauth2
 import tweepy
 
-from TwitterCredentials import *
 from SpotifyCredentials import *
+from TwitterCredentials import *
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
