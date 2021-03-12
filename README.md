@@ -8,13 +8,13 @@ Once it has downloaded you will need to add your own authentication keys and tok
 
 The authentication tokens and keys for Spotify can be found when you create an app on https://developer.spotify.com/
 
-The authetication tokens and keys for Twitter can be found when you create an app on https://developer.twitter.com/
+The authentication tokens and keys for Twitter can be found when you create an app on https://developer.twitter.com/
 
 You will need to import [Tweepy](https://www.tweepy.org/) and [Spotipy](https://spotipy.readthedocs.io/en/latest/#installation) to run this program.
 
 As there is a problem with the current build of spotipy you will also need to run this command to get the latest build:
 
-pip install git+https://github.com/plamere/spotipy.git --upgrade
+pip3 install git+https://github.com/plamere/spotipy.git --upgrade
 
 This will eliminate any attribute errors when getting the user playback.
 
