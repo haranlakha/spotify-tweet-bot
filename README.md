@@ -20,9 +20,7 @@ This will eliminate any attribute errors when getting the user playback.
 
 # Running the program
 
-To run this program simply type in the terminal: python SpotifyTweet.py
-
-Execute with: python3 SpotifyTweet.py (if using python3)
+Run with: python3 SpotifyTweet.py
 
 ## Author
 
