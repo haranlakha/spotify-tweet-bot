@@ -21,7 +21,3 @@ This will eliminate any attribute errors when getting the user playback.
 # Running the program
 
 Run with: python3 SpotifyTweet.py
-
-## Author
-
-* **Haran Lakha** - [GitHub](https://github.com/haranlakha) - [Twitter](https://twitter.com/haranlakha)
