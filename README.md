@@ -1,23 +1,31 @@
-# Spotify Tweet Bot
+# Spotify tweet bot
+
 This is a Spotify Tweet Bot which gets your currently playing song from Spotify and tweets it to your Twitter account.
 
-# Installation
-Clone this repository or download the .zip file.
+## Prerequisites
 
-Once it has downloaded you will need to add your own authentication keys and tokens to the SpotifyCredentials.py and TwitterCredentials.py files
+### Authentication
 
-The authentication tokens and keys for Spotify can be found when you create an app on https://developer.spotify.com/
+Generate your [Spotify Authentication tokens](https://developer.spotify.com/) and [Twitter authentication tokens](https://developer.twitter.com/) to add to their respective credentials files.
 
-The authentication tokens and keys for Twitter can be found when you create an app on https://developer.twitter.com/
+### Import libraries
 
-You will need to import [Tweepy](https://www.tweepy.org/) and [Spotipy](https://spotipy.readthedocs.io/en/latest/#installation) to run this program.
+Import [Tweepy](https://www.tweepy.org/):
+```
+pip install tweepy
+```
+Import [Spotipy](https://spotipy.readthedocs.io/en/latest/#installation):
+```
+pip install spotipy --upgrade
+```
+## Installation
+```
+git clone https://github.com/haranlakha/spotify-tweet-bot.git
+```
 
-As there is a problem with the current build of spotipy you will also need to run this command to get the latest build:
+## Run code
+```
+python3 SpotifyTweet.py
+```
 
-pip3 install git+https://github.com/plamere/spotipy.git --upgrade
 
-This will eliminate any attribute errors when getting the user playback.
-
-# Running the program
-
-Run with: python3 SpotifyTweet.py
