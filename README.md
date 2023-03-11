@@ -1,4 +1,7 @@
-# Spotify tweet bot
+# DEPRECATED Spotify Tweet Bot
+
+NOTE:
+**No longer supported due to [Twitter API v2 update](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api)**
 
 This is a Spotify Tweet Bot which gets your currently playing song from Spotify and tweets it to your Twitter account.
 
